@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+
+/* TABLETS */
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    body {
+        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+    }
+
+    #login {
+        width: 80vw;
+    }
+
+    #image {
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+
+    #form {
+        float: right;
+        width: 70%;
+    }
+}
+
+/* PC and TVs */
+
+@media screen and (min-width: 992px) {
+
+    body {
+        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+    }
+    
+    #login {
+        width: 950px;
+    }
+
+    #image {
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+
+    #form {
+        float: right;
+        width: 50%;
+    }
+}
